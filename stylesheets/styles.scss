@@ -20,6 +20,13 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: $default-font;
+    background-image: url('/img/Screenshot\ \(117\).png');
+    background-size: cover;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 ::placeholder {
@@ -41,6 +48,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 0.98;
 }
 
 .wrapper label {
