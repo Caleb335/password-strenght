@@ -17,7 +17,13 @@
     git remote add upstream https://github.com/Caleb335/password-strenght.git
 ```
 - Make your changes, commit them.
-- Push and make your pll requests.
+```git 
+    git commit -m "your message"
+```
+- Push your codes and make your pull requests.
+```git 
+    git push -u origin master
+```
 
 
 
