@@ -28,7 +28,7 @@ input::placeholder {
     padding-left: 3%;
 }
 main input {
-    width: 40%;
+    width: 46%;
     height: 40px;
     border-top: none;
     border-right: none;
@@ -86,13 +86,13 @@ main input:hover {
         margin-top: 6%;
     }
     main input {
-        width: 80%;
+        width: 90%;
     }
     .flex-container input {
         margin-top: 35%;
     }
     #strenghtMsg {
-        padding-top: 28%;
+        padding-top: 27%;
         padding-left: 32%;
     }
     footer {
