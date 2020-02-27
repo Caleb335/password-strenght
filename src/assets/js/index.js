@@ -4,7 +4,7 @@ let pwdStrenghtMsg = document.getElementById('strenghtMsg');
 
 userPassword.addEventListener('keydown', pwdStrenght);
 
-function pwdStrenght () {
+const pwdStrenght = () => {
     if (userPassword.value.length < 5) {
         pwdStrenghtMsg.innerText = "Too short!";
         pwdStrenghtMsg.style.color = "#ccc";
