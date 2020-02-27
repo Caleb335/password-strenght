@@ -8,7 +8,7 @@
 
 # Wanna Contribute? follow these steps
 
-- Clone the repository or fork it, and then clone, either way, you'll stiil get the same result.
+- Clone the repository or fork it, either way you'll stiil get the same result.
 ```git 
     git clone https://github.com/Caleb335/password-strenght.git
 ```
