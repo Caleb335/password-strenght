@@ -21,8 +21,30 @@ function pwdStrenght () {
         pwdStrenghtMsg.innerText = "Strong Password!";
         pwdStrenghtMsg.style.color = "#0b9779";
     }
-
     if (userPassword.value.length == 0) {
         pwdStrenghtMsg.innerText = "";
     }
+}
+
+// Password toggle
+const togglePassword = () => {
+    let testPassword = document.getElementById("password")
+    
+    if(testPassword.type === "password") {
+        testPassword.type = "text"
+    } else {
+        testPassword.type = "password"
+    }
+}
+
+// click button to copy text
+
+const copyPassword = () => {
+    let textToCopy = document.getElementById("password")
+
+    textToCopy.select();
+    textToCopy.setSelectionRange(0, 99999);
+
+    document.execCommand('copy')
+    alert("Copied: " + textToCopy.value);
 }

@@ -40,17 +40,36 @@ main input {
     background: transparent;
     outline: none;
     color: #fff;
+    font-size: 25px;
 }
 main input:hover {
     border-color: rgb(10, 218, 148);
     transition: 2s ease-in-out;
     transform: translateY(-2px);
 }
-.fa-lock {
+.fa-eye-slash {
     margin-top: 8.8%;
     padding-left: 2%;
     font-size: 15px;
     color: #fff;
+}
+.btn {
+    margin-left: 2%;
+    background: #07bd77;
+    outline: none;
+    width: 140px;
+    height: 40px;
+    margin-top: 8%;
+    border: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 19px;
+    border-radius: 3px;
+}
+.btn:hover {
+    cursor: pointer;
+    background: rgb(4, 126, 85);
+    transition: 1s ease-in;
 }
 /* main section ends here */
 
@@ -93,10 +112,14 @@ main input:hover {
     .flex-container p {
         margin-top: 6%;
     }
+    main .flex-container {
+        display: block;
+        margin-left: 3%;
+    }
     main input {
         width: 90%;
     }
-    .fa-lock {
+    .fa-eye-slash {
         margin-top: 37%;
     }
     .flex-container input {

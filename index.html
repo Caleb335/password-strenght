@@ -15,8 +15,11 @@
     </header>
     <main>
         <div class="flex-container mt-2">
-            <i class="fas fa-lock"></i><input type="text" class="mt-2" id="password" placeholder="Your password.">
+            <i class="fas fa-eye-slash" id="showPwd" onclick="togglePassword()"></i><input type="password" class="mt-2" id="password" placeholder="Your password.">
             <span id="strenghtMsg"></span>
+            <button class="btn btn-block btn-success" onclick="copyPassword()">
+                Copy password
+            </button>
         </div>
     </main>
     <footer class="flex-container">
