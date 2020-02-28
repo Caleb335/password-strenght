@@ -38,6 +38,7 @@ main input {
     font-size: 18px;
     letter-spacing: 2px;
     background: transparent;
+    outline: none;
 }
 main input:hover {
     border-color: rgb(10, 218, 148);
