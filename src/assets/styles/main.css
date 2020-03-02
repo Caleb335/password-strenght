@@ -57,13 +57,13 @@ main input:hover {
     margin-left: 2%;
     background: #07bd77;
     outline: none;
-    width: 140px;
+    width: 150px;
     height: 40px;
     margin-top: 8%;
     border: none;
     color: #fff;
     text-transform: capitalize;
-    font-size: 19px;
+    font-size: 17px;
     border-radius: 3px;
 }
 .btn:hover {
@@ -115,6 +115,7 @@ main input:hover {
     main .flex-container {
         display: block;
         margin-left: 3%;
+        align-content: center;
     }
     main input {
         width: 90%;
